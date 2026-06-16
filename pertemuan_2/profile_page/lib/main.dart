@@ -112,10 +112,10 @@ class ProfilePage extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             Row(
-              children: const [
-                Expanded(child: StatBox(label: 'Post', value: '7')),
-                Expanded(child: StatBox(label: 'Teman', value: '190')),
-                Expanded(child: StatBox(label: 'Like', value: '218')),
+              children: [
+                const Expanded(child: StatBox(label: 'Post', value: '7')),
+                const Expanded(child: StatBox(label: 'Teman', value: '190')),
+                const Expanded(child: StatBox(label: 'Like', value: '218')),
               ],
             ),
             const SizedBox(height: 24),
@@ -159,13 +159,13 @@ class ProfilePage extends StatelessWidget {
                           Wrap(
                             spacing: 8,
                             runSpacing: -4,
-                            children: const [
-                              Chip(label: Text('Flutter')),
-                              Chip(label: Text('Java')),
-                              Chip(label: Text('PHP')),
-                              Chip(label: Text('Cybersecurity')),
-                              Chip(label: Text('Laravel')),
-                              Chip(label: Text('React js')),
+                            children: [
+                              const Chip(label: Text('Flutter')),
+                              const Chip(label: Text('Java')),
+                              const Chip(label: Text('PHP')),
+                              const Chip(label: Text('Cybersecurity')),
+                              const Chip(label: Text('Laravel')),
+                              const Chip(label: Text('React js')),
                             ],
                           ),
                         ],
